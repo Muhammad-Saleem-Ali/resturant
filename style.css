@@ -374,6 +374,15 @@ section{
     font-size: 22px;
     font-weight: 800;
     color: #d32931;
+    width: 55px;
+    padding: 0px 5px;
+    background-color: white;
+    border-radius: 50%;
+
+   
+}
+.logo img{
+    width:100%;
 }
 .items ul{
     display: flex;
@@ -385,20 +394,23 @@ section{
     align-items: center;
 }
 .items{
-    /* margin-left: 270px; */
-    padding-top: 6px;
+    align-items: center;
+    display: flex;
 }
-/* li a:after {
+.items li a:after {
     display:block;
     content: '';
     border-bottom: solid 3px #d32931;  
     transform: scaleX(0);  
     transition: transform 800ms ease-in-out;
   }
-  li a:hover:after {
+  .items li a:hover:after {
    transform: scaleX(1);
-   margin-left: 10px;
-  } */
+   /* margin-left: 10px; */
+  }
+  .items li{
+    padding: 0 20px;
+  }
 .navbar{
     position: fixed;
     color: #000;
@@ -409,8 +421,8 @@ section{
 }
 .items a{
     font-size: 14px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
     color: white;
     font-weight: 600;
     text-transform: uppercase;
@@ -423,12 +435,16 @@ section{
 .active a:hover{
     color: #d32931;
 }
+.icon{
+    align-items: center;
+    display: flex;
+}
 .icon i{
     font-size: 25px;
     color: #f75a4b;
 } 
 .showcase{
-    background-image: url(./imges/blogimg1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./imges/header.jpg);
     height: 85vh;
     background-size: cover;
     background-position: center;
@@ -447,9 +463,11 @@ section{
     font-size: 18px;
 }
 .s h1{
-    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
     font-weight: 800;
     padding: 15px 0;
+    color: #d32931;
 }
 .s button{
     padding: 10px 20px;
@@ -4053,7 +4071,12 @@ transition: all .5s linear;
 
 @media only screen and (max-width:500px) and (min-width:350px) {
 
-
+    .logo {
+        font-size: 22px;
+        font-weight: 800;
+        color: #d32931;
+        margin-left: 33%;
+    }
     label #btn{
         display: block;
         left: 25px;
@@ -4078,7 +4101,15 @@ transition: all .5s linear;
         /* background-color: transparent; */
         transition: all .5s ease;
     }
-    
+    .s a {
+        font-size: 13px;
+    }
+    .s p {
+        font-size: 15px;
+    }
+    .s h1 {
+        font-size: 20px;
+    }
 /* ---------aboutus---------- */
 
     .about-main {

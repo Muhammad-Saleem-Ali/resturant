@@ -4075,12 +4075,12 @@ transition: all .5s linear;
         font-size: 22px;
         font-weight: 800;
         color: #d32931;
-        margin-left: 33%;
+        margin-left: 45%;
     }
     label #btn{
         display: block;
         left: 25px;
-        top: 10px;
+        top: 22px;
         font-size: 35px;
         color: white;
         padding: 6px 12px; 
